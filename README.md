@@ -44,7 +44,7 @@ Here is a run through of how to set up the application:
 - HTML
 - CSS
 - Javascript
-- Bootstrap 4.3.1
+- Bootstrap 5
 
 ## Support and contact details
 
