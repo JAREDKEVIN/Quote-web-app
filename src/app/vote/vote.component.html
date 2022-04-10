@@ -1,0 +1,17 @@
+<div class="d-flex justify-content-between vote">
+  <div class="d-flex">
+    <div class="d-flex ps-2 align-items-center justify-content-center">
+      <i class="fa fa-thumbs-up text-info" (click)="likes()" aria-hidden="true "></i>
+
+      <span class="ps-2">{{vote.likes}} </span>
+    </div>
+    <div class="d-flex align-items-center ps-2 justify-content-center">
+      <i class="fa fa-thumbs-down text-danger" (click)="dislikes()" aria-hidden="true"></i>
+
+      <span class="ps-2">{{vote.unlike}}</span>
+    </div>
+  </div>
+  <div class="p-1">
+    <i class="fas fa-trash-alt text-danger" (click)="delete(true)" aria-hidden="true"></i>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+<div class="position-absolute top-0 start-0 end-0 bottom-0 lift">
+  <div data-mdb-toggle="animation" animation fadeInDown class="p-2 m-2 formDiv">
+    <div class="container">
+      <div class="d-flex justify-content-end">
+        <button (click)="close(false)" class="btn btn-outline-danger mt-2">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
+      <form class="form" (ngSubmit)="submitQuote(form,form.value)" #form="ngForm">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label text-light">Name</label
+          >
+                    <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            ngModel
+            name="userName"
+            #name="ngModel"
+            placeholder="Your Name....."
+            required
+          />
+          <div [hidden]="name.valid||name.pristine" ngClass="text-danger">
+            Name is required.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-light"
+            >Author</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            ngModel
+            name="author"
+            #author="ngModel"
+            placeholder="Author's name...."
+            required
+          />
+          <div [hidden]="author.valid||author.pristine" ngClass="text-danger">
+            authors name is required.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-light"
+            >Qoute</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            ngModel
+            #quote="ngModel"
+            name="qoute"
+            placeholder="Your Qoute.."
+            required
+          ></textarea>
+          <div [hidden]="quote.valid||quote.pristine" ngClass="text-danger">
+            Quote is required.
+          </div>
+        </div>
+
+        <div class="example-button">
+          <button class="btn btn-warning">Add Quote</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
