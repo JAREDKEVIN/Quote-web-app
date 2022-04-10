@@ -12,6 +12,8 @@ import { VoteComponent } from "./vote/vote.component";
 import { QuoteDetailsComponent } from "./quote-details/quote-details.component";
 import { TimerCounterPipe } from "./timer-counter.pipe";
 import { HighlightDirective } from "./highlight.directive";
+import { ModelClassComponent } from './custom-class/model-class';
+import { QuoteGenComponent } from './quote-gen/quote-gen.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { HighlightDirective } from "./highlight.directive";
     QuoteDetailsComponent,
     TimerCounterPipe,
     HighlightDirective,
+    ModelClassComponent,
+    QuoteGenComponent,
   ],
   imports: [
     BrowserModule,
