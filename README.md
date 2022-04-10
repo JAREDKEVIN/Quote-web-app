@@ -1,6 +1,5 @@
 # QUOTE-GENERATOR
 
-# Quotes
 
 ![alt text](src/assets/images/screenshot1.png)
 
