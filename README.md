@@ -1,5 +1,6 @@
 # QUOTE-GENERATOR
 
+# Quotes
 
 ![alt text](src/assets/images/screenshot1.png)
 
@@ -38,6 +39,7 @@ Here is a run through of how to set up the application:
 ## Known Bugs
 
 - The form displays the validation alerts when subitted.
+- The form displays the validation alerts when subitted. 
 
 ## Technologies Used
 
@@ -55,3 +57,5 @@ Primary Address: @JAREDKEVIN
 *MIT License* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT)
 
 Copyright (c) 2022 **Kipkemoi Jared Kevin**
+
+
