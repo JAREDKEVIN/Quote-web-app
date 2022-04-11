@@ -13,7 +13,7 @@ export class QuotesGenComponent implements OnInit {
     new ModelClass(
       "kevin",
       "never give up",
-      "sareto",
+      "KIPKEMOI",
       new Date(2022, 6, 6, 12, 49, 10),
       30,
       5
