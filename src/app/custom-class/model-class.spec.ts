@@ -1,8 +1,8 @@
-import { ModelClass } from './model-class';
+// import { ModelClass } from './model-class';
 
 
-describe('ModelClass', () => {
-  it('should create an instance', () => {
-    expect(new ModelClass()).toBeTruthy();
-  });
-});
+// describe('ModelClass', () => {
+//   it('should create an instance', () => {
+//     expect(new ModelClass()).toBeTruthy();
+//   });
+// });
