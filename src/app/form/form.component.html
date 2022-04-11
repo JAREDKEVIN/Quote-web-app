@@ -2,7 +2,7 @@
   <div data-mdb-toggle="animation" animation fadeInDown class="p-2 m-2 formDiv">
     <div class="container">
       <div class="d-flex justify-content-end">
-        <button (click)="close(false)" class="btn btn-outline-danger mt-2">
+        <button type="button" id="form" aria-label="form" (click)="close(false)" class="btn btn-outline-danger mt-2">
           <i class="fa fa-times" aria-hidden="true"></i>
         </button>
       </div>
@@ -31,7 +31,7 @@
           <input
             type="text"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="exampleFormControlInput2"
             ngModel
             name="author"
             #author="ngModel"
@@ -62,7 +62,7 @@
         </div>
 
         <div class="example-button">
-          <button class="btn btn-warning">Add Quote</button>
+          <button type="button" class="btn btn-warning">Add Quote</button>
         </div>
       </form>
     </div>
