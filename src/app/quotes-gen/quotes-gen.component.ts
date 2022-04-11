@@ -11,26 +11,26 @@ export class QuotesGenComponent implements OnInit {
   quoteGenerator: ModelClass[] = [
     //generate new quote
     new ModelClass(
-      "duncan",
+      "kevin",
       "never give up",
       "sareto",
-      new Date(2021, 6, 6, 12, 49, 10),
+      new Date(2022, 6, 6, 12, 49, 10),
       30,
       5
     ),
     new ModelClass(
-      "duncan",
+      "kevin",
       "The Best Way To Get Started Is To Quit Talking And Begin Doing.",
       "Walt Disney",
-      new Date(2021, 6, 7, 12, 49, 10),
+      new Date(2022, 6, 7, 12, 49, 10),
       20,
       2
     ),
     new ModelClass(
-      "Duncan",
+      "kevin",
       "Don’t Let Yesterday Take Up Too Much Of Today.",
       "Ja Loka",
-      new Date(2021, 6, 8, 12, 49, 10),
+      new Date(2022, 6, 8, 12, 49, 10),
       40,
       3
     ),
@@ -67,7 +67,7 @@ export class QuotesGenComponent implements OnInit {
   del(isDelete: boolean, index: number) {
     // delete button function
     if (isDelete) {
-      let confirmDelete = confirm("Are you sure you want to delete this quote");
+      let confirmDelete = confirm("Are you sure you want to delete this quote??");
       if (confirmDelete) this.quoteGenerator.splice(index, 1);
     }
   }
