@@ -1,9 +1,6 @@
 # QUOTE-GENERATOR
 
 
-![alt text](src/assets/images/screenshot1.png)
-
-
 ### Author
  **[KEVIN KIPKEMOI.](https://github.com/JAREDKEVIN)**
 
@@ -11,7 +8,7 @@
 
 A website that allows a posting of quotes by users as well as interacting with the posted quotes.
 
-**[Live-Link to site.]()**
+**[Live-Link to site.](https://jaredkevin.github.io/Quote-web-app)**
 ## Features
 
 * Interactive cards that show the posted quotes.
