@@ -11,15 +11,15 @@ export class QuotesGenComponent implements OnInit {
   quoteGenerator: ModelClass[] = [
     //generate new quote
     new ModelClass(
-      "kevin",
-      "never give up",
+      "KEVIN",
+      "SIPANGWINGWI",
       "KIPKEMOI",
       new Date(2022, 6, 6, 12, 49, 10),
       30,
       5
     ),
     new ModelClass(
-      "kevin",
+      "UNKNOWN",
       "The Best Way To Get Started Is To Quit Talking And Begin Doing.",
       "Walt Disney",
       new Date(2022, 6, 7, 12, 49, 10),
@@ -27,7 +27,7 @@ export class QuotesGenComponent implements OnInit {
       2
     ),
     new ModelClass(
-      "kevin",
+      "INSPIRATION",
       "Don’t Let Yesterday Take Up Too Much Of Today.",
       "Ja Loka",
       new Date(2022, 6, 8, 12, 49, 10),

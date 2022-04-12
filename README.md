@@ -42,7 +42,7 @@ Here is a run through of how to set up the application:
 
 ## Technologies Used
 
-- Angular CLI version  8.3.4
+- Angular CLI version  13.3.2
 - HTML
 - CSS
 - Javascript
